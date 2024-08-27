@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    
+    <center>
+
+    <form action="#">
+        <h2>Student Registration Form</h2>
+        
+        <div>
+            <label for="firstname">FIRSTNAME:</label>
+            <input type="text" id="firstname" required><br><br>
+        </div>
+
+
+        <div>
+            <label for="lastname">LASTNAME:</label>
+            <input type="text" id="lastname"required><br><br>
+        </div>
+    
+        <div>
+            <label for="date">DATE OF BIRTH:</label>
+            <input type="date" id="date"required><br><br>
+        </div>    
+    
+        <div>
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email"required size="25"><br><br>
+        </div>     
+
+        <div>
+            <label for="number">MOBILE NUMBER:</label>
+            <input type="tel" id="number"required size="13"><br><br>
+        </div>   
+
+        <div>
+            <label>Gender:</label>
+            <input type="radio" id="gender" name="Gender">
+            <label for="gender">Male</label>
+            <input type="radio" id="gender" name="Gender">
+            <label for="gender">Female</label><br><br>
+        </div>
+
+        <div>
+            <label for="age">AGE:</label>
+            <input type="number" id="age" max="40"required size="30"><br><br>
+        </div>
+
+       <div>
+        <label for="degree">DEGREE:</label>
+        <select name="Degree" id="degree"required >
+            <option value="">B.TECH</option>
+            <option value="">B.COM</option>
+            <option value="">B.SC</option>
+        </select><br><br>
+        </div>
+    
+       <div>
+        <label  for="branch">BRANCH:</label>
+        <input id="branch" list="Branch">
+        <datalist id="Branch"required>
+            <option value="INFORMATION TECHNOLOGY"></option>
+            <option value="PETROCHEMICAL"></option>
+            <option value="COMPUTER SCIENCE AND COMMUNICATION"></option>
+            <option value="MECHANICAL"></option>
+        </datalist> 
+       </div><br><br>
+ 
+        <div>
+        <label for="address">ADDRESS:</label><br>
+        <input placeholder="Line 1" name="address" id="address"required size="32"></input><br><br>  <input placeholder="Line 2" name="address" id="address"required size="32"></input>
+        </div><br><br>
+
+        <div>
+        <label for="state">STATE:</label>
+        <input type="text" id="state"required size="24"><br><br>
+        </div>
+
+        <div>
+        <label for="city">CITY:</label>
+        <input size="25" type="text" id="city"required><br><br>
+        </div>
+
+        <div>
+        <label for="code">PINCODE:</label>
+        <input  type="number" id="code" min="600000"required><br><br>
+        </div>
+   
+        <div>
+        <label for="upload">Upload Documents:</label>
+        <input type="file" id="upload"required><br><br>
+        </div>
+   
+        <div>
+        <input type="checkbox" id="box" required>
+        <label for="box">Kindly check and submit the registration form.</label><br><br>
+        </div>
+
+        <input type="submit" value="SUBMIT"required>
+
+    </form>
+
+    </center>
+</body>
+</html>
